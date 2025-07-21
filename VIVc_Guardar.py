@@ -60,15 +60,15 @@ async def vivc_guardar():
     """Función principal para procesar y guardar facturas"""
     
     # Configuración de autenticación
-    username = "API2Serp@algpanama.com"
-    password = "Cash1to5100"
+    username = "atlejemplo@example.com"
+    password = "ejemplo_password"
     auth = BasicAuth(username, password)
     
     # Configuración del cliente HTTP
     timeout = aiohttp.ClientTimeout(total=1200)  # 20 minutos
     
     # URL base
-    base_url = "http://10.1.8.3:8035/api/1/VIVc?"
+    base_url = "http://x.x.x.x:8xxx/api/1/VIVc?"
     
     # Ruta del archivo Excel
     file_path = r"C:\Users\avivas\Desktop\Consola Emigrar Facturas\SCAJ_ATL_202507 v2.xlsx"
@@ -168,7 +168,7 @@ async def vivc_guardar():
         print(f"Último valor (InvoiceNr): {ultimo.InvoiceNr}")
     
     # Consultar datos existentes
-    url_consulta = "http://10.1.8.3:8035/api/1/VIVc?fields=InvoiceNr,SerNr,VECode"
+    url_consulta = "http://x.x.x.x:8xxx/api/1/VIVc?fields=InvoiceNr,SerNr,VECode"
     dt = await HttpClass.consulta(url_consulta, username, password)
     
     # Procesar cada encabezado
