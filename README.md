@@ -1,3 +1,9 @@
+
+verificar que la cadena que se va enviar sea igual a esto : &set_field.InvoiceNr=992-11159061&set_field.VECode=10197&set_field.InvDate=2025-07-18&set_field.TransDate=2025-07-18&set_field.PayDeal=CC&set_field.OKPersons=MAC&set_field.Objects=202506&set_field.OKFlag=0&set_field.PrelBook=0&set_field.PayVal=80&set_row_field.0.STP=1&set_row_field.0.AccNumber=511202&set_row_field.0.Objects=10561,FF,CAER,AI-8564-2025,HAWB-21420-2025&set_row_field.0.Sum=4.27&set_row_field.0.VATCode=E&set_row_field.0.Item=C101&set_row_field.0.qty=1&set_row_field.0.PeriodCode=&set_row_field.1.STP=1&set_row_field.1.AccNumber=511202&set_row_field.1.Objects=10561,FF,CAER,AI-8564-2025,HAWB-21419-2025&set_row_field.1.Sum=75.73&set_row_field.1.VATCode=E&set_row_field.1.Item=C101&set_row_field.1.qty=1&set_row_field.1.PeriodCode=
+
+
+
+
 # VIVc_Guardar
 Rutina para crear ordene de compras 
 # VIVc_Guardar
